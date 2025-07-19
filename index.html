@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Clothes</title>
+  <script src="https://kit.fontawesome.com/27d4dbe998.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <i class="fas fa-tshirt"></i>
+    </div>
+
+    <div>
+      <h1>
+        Fashion Style <a href="#">Visit Us</a>
+      </h1>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="text">
+          <h2>Our New Clothing Line</h2>
+          <p>View 2026 Designs Today</p>
+        </div>
+        <img src="img/img-2.jpg" class="shadow-reverse" alt="img-2" />
+      </div>
+      <div class="col">
+        <img src="img/img-1.jpg" alt="img-1" />
+        <a class="block" href="#">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup Modal -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span id="close-popup" class="close">&times;</span>
+      <h2 id="popup-title">Title</h2>
+      <input type="text" id="popup-input" placeholder="Enter here..." />
+      <button id="popup-submit">Submit</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
